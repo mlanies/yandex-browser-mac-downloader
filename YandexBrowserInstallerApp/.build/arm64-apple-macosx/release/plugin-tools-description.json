@@ -1,0 +1,190 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.YandexBrowserInstaller-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/sources",
+      "importPath" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/Sources/YandexBrowserInstaller/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "YandexBrowserInstaller",
+      "moduleOutputPath" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/YandexBrowserInstaller.swiftmodule",
+      "objects" : [
+        "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/YandexBrowserInstaller.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/Sources/YandexBrowserInstaller/main.swift"
+      ],
+      "tempsPath" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "YandexBrowserInstaller" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "YandexBrowserInstaller",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/Sources/YandexBrowserInstaller/main.swift",
+      "-I",
+      "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "YandexBrowserInstaller" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/Sources/YandexBrowserInstaller/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/sources"
+    },
+    "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.product/Objects.LinkFileList"
+    },
+    "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
