@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+
+# Swift/Build artifacts
+.build/
+
+# Xcode project files (если появятся)
+*.xcworkspace
+*.xcodeproj
+
+# Сборочные артефакты
+YandexBrowserInstallerDisk/
+dist/YandexBrowserInstaller.app/
+
+# Логи и временные файлы
+*.log 
