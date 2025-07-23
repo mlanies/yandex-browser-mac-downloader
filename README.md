@@ -1,6 +1,7 @@
+# Yandex Browser Mac Downloader
+
 ![Скриншот приложения](pic.png)
 
-# Yandex Browser Mac Downloader
 
 Простое нативное приложение-обёртка для macOS, позволяющее пользователю выбрать и скачать подходящую версию Яндекс.Браузера для Mac (ARM/M1/M2/M3 или Intel).
 
