@@ -1,14 +1,15 @@
 import Cocoa
 
-let armURL = "https://browser.yandex.ru/download?banerid=6400000000&referrer=appmetrica_tracking_id%3D389430554958814120%26ym_tracking_id%3D18110942918853339313&os=mac&arch=arm64&darktheme=1&portal_testids=1114258%2F-1%2C1114347%2F-1%2C1124063%2F-1%2C1127618%2F-1%2C1176504%2F-1&signature=WfEO3mlvFxnndnZmaFP0xj2JqbDYl%2F8sHn5Gmr9t2Rrec0wrY9uQEtxNAUCCoE5v%2FadEkBWfQCaQlOwv46pQUw%3D%3D"
-let intelURL = "https://browser.yandex.ru/?banerid&referrer=appmetrica_tracking_id%3D389430554958814120%26ym_tracking_id%3D18110942918853339313#:~:text=MacOS%20(%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D1%8B%20Intel)"
+let armURL = "https://browser.yandex.ru/download?partner_id=831050&banerid=1312898233&os=mac&arch=arm64"
+let intelURL = "https://browser.yandex.ru/download?partner_id=831050&banerid=1312898233&os=mac&arch=x86_64"
+let corpURL = "https://browser.yandex.ru/corp/builds?refid=5931838"
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     var window: NSWindow!
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         let screenSize = NSScreen.main?.frame.size ?? CGSize(width: 600, height: 400)
-        let windowSize = CGSize(width: 420, height: 220)
+        let windowSize = CGSize(width: 420, height: 370)
         window = NSWindow(
             contentRect: NSRect(x: (screenSize.width - windowSize.width)/2,
                                 y: (screenSize.height - windowSize.height)/2,
@@ -20,17 +21,29 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.makeKeyAndOrderFront(nil)
 
         let label = NSTextField(labelWithString: "Выберите версию для вашего Mac:")
-        label.frame = NSRect(x: 60, y: 130, width: 300, height: 24)
+        label.frame = NSRect(x: 60, y: 280, width: 300, height: 24)
         label.alignment = .center
         window.contentView?.addSubview(label)
 
         let armButton = NSButton(title: "Скачать для Mac M1/M2/M3 (ARM)", target: self, action: #selector(downloadARM))
-        armButton.frame = NSRect(x: 60, y: 80, width: 300, height: 32)
+        armButton.frame = NSRect(x: 60, y: 230, width: 300, height: 32)
         window.contentView?.addSubview(armButton)
 
         let intelButton = NSButton(title: "Скачать для Mac Intel", target: self, action: #selector(downloadIntel))
-        intelButton.frame = NSRect(x: 60, y: 40, width: 300, height: 32)
+        intelButton.frame = NSRect(x: 60, y: 185, width: 300, height: 32)
         window.contentView?.addSubview(intelButton)
+
+        // Заголовок для корпоративной версии
+        let corpLabel = NSTextField(labelWithString: "Яндекс.Браузер для организаций")
+        corpLabel.frame = NSRect(x: 60, y: 135, width: 300, height: 24)
+        corpLabel.alignment = .center
+        corpLabel.font = NSFont.boldSystemFont(ofSize: 15)
+        window.contentView?.addSubview(corpLabel)
+
+        // Кнопка для корпоративной версии
+        let corpButton = NSButton(title: "Скачать корпоративную версию", target: self, action: #selector(downloadCorp))
+        corpButton.frame = NSRect(x: 60, y: 90, width: 300, height: 32)
+        window.contentView?.addSubview(corpButton)
     }
 
     @objc func downloadARM() {
@@ -42,6 +55,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @objc func downloadIntel() {
         if let url = URL(string: intelURL) {
+            NSWorkspace.shared.open(url)
+            NSApp.terminate(nil)
+        }
+    }
+
+    @objc func downloadCorp() {
+        if let url = URL(string: corpURL) {
             NSWorkspace.shared.open(url)
             NSApp.terminate(nil)
         }
