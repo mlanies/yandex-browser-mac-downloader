@@ -1,6 +1,7 @@
 version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
-options: "6b42c0a9f485075e92f31e3925c6f56262d237f97713758598ef99e1ccb20a13"
-build_start_time: [1753261886, 866545000]
-build_end_time: [1753261927, 373869000]
+options: "497d71d3f8bf15734c9a477a92c49ec1bdbef07f0060353990b0a38d3e8a1a30"
+build_start_time: [1753265839, 675425000]
+build_end_time: [1753265879, 106644000]
 inputs:
-  "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/Sources/YandexBrowserInstaller/main.swift": [1753261829, 823732013]
+  ? "/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/Sources/YandexBrowserInstaller/main.swift"
+  : [1753261829, 823732013]

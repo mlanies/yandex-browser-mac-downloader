@@ -1,11 +1,11 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller'
+binary-path:     '/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller'
 relocations:
-  - { offset: 0xEB281, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller6armURLSSvp', symObjAddr: 0x5B98, symBinAddr: 0x10000CBB8, symSize: 0x0 }
-  - { offset: 0xEB29B, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller8intelURLSSvp', symObjAddr: 0x5BA8, symBinAddr: 0x10000CBC8, symSize: 0x0 }
-  - { offset: 0xEB2B5, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller3appSo13NSApplicationCvp', symObjAddr: 0x5BB8, symBinAddr: 0x10000CBD8, symSize: 0x0 }
-  - { offset: 0xEB2CF, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller8delegateAA11AppDelegateCvp', symObjAddr: 0x5BC0, symBinAddr: 0x10000CBE0, symSize: 0x0 }
+  - { offset: 0xEB281, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller6armURLSSvp', symObjAddr: 0x5CA8, symBinAddr: 0x10000CBB8, symSize: 0x0 }
+  - { offset: 0xEB29B, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller8intelURLSSvp', symObjAddr: 0x5CB8, symBinAddr: 0x10000CBC8, symSize: 0x0 }
+  - { offset: 0xEB2B5, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller3appSo13NSApplicationCvp', symObjAddr: 0x5CC8, symBinAddr: 0x10000CBD8, symSize: 0x0 }
+  - { offset: 0xEB2CF, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller8delegateAA11AppDelegateCvp', symObjAddr: 0x5CD0, symBinAddr: 0x10000CBE0, symSize: 0x0 }
   - { offset: 0xEB3F5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001F7C, symSize: 0xC8 }
   - { offset: 0xEB453, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller11AppDelegateCMa', symObjAddr: 0xC8, symBinAddr: 0x100002044, symSize: 0x20 }
   - { offset: 0xEB467, size: 0x8, addend: 0x0, symName: '_$s22YandexBrowserInstaller11AppDelegateCfETo', symObjAddr: 0x79C, symBinAddr: 0x100002718, symSize: 0x10 }

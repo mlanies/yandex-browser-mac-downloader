@@ -1,12 +1,12 @@
 {
   "": {
-    "dependencies": "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/YandexBrowserInstaller.d",
-    "object": "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/YandexBrowserInstaller.o",
-    "swift-dependencies": "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/master.swiftdeps"
+    "dependencies": "/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/YandexBrowserInstaller.d",
+    "object": "/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/YandexBrowserInstaller.o",
+    "swift-dependencies": "/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/master.swiftdeps"
   },
-  "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/Sources/YandexBrowserInstaller/main.swift": {
-    "object": "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main.swift.o",
-    "swiftmodule": "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main~partial.swiftmodule",
-    "swift-dependencies": "/Users/maxlanies/Desktop/yandex/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main.swiftdeps"
+  "/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/Sources/YandexBrowserInstaller/main.swift": {
+    "object": "/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main.swift.o",
+    "swiftmodule": "/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/maxlanies/Desktop/yandex/yandex-browser-mac-downloader/YandexBrowserInstallerApp/.build/arm64-apple-macosx/release/YandexBrowserInstaller.build/main.swiftdeps"
   }
 }
